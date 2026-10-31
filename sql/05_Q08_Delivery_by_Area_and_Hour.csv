@@ -1,0 +1,51 @@
+city,area,order_hour,total_deliveries,avg_delivery_time_min,avg_delay_min,delay_rate_pct
+Visakhapatnam,Gajuwaka,1,9,72.3,29.7,77.8
+Hyderabad,Hitech City,1,9,78.2,23.2,44.4
+Visakhapatnam,Dwaraka Nagar,0,12,65.3,22.2,58.3
+Visakhapatnam,Seethammadhara,0,11,65.7,21.4,63.6
+Hyderabad,LB Nagar,5,16,62.0,20.8,62.5
+Hyderabad,Dilsukhnagar,2,9,65.1,20.6,55.6
+Visakhapatnam,Kommadi,1,6,67.8,20.0,50.0
+Hyderabad,Ameerpet,4,14,61.1,19.9,57.1
+Vijayawada,Moghalrajpuram,4,6,60.6,19.0,50.0
+Hyderabad,Uppal,6,29,56.4,19.0,58.6
+Hyderabad,Chandanagar,1,11,59.8,18.8,63.6
+Vijayawada,Governorpet,6,20,58.3,18.5,55.0
+Hyderabad,Uppal,3,5,66.3,18.3,60.0
+Vijayawada,Auto Nagar,2,5,53.2,18.3,40.0
+Vijayawada,Governorpet,0,12,59.3,18.3,50.0
+Hyderabad,Miyapur,0,25,62.0,18.2,60.0
+Visakhapatnam,MVP Colony,5,12,64.4,18.2,50.0
+Hyderabad,Kondapur,3,6,64.7,18.1,33.3
+Vijayawada,Benz Circle,6,12,61.1,18.0,66.7
+Hyderabad,Kondapur,1,16,63.4,18.0,56.2
+Hyderabad,Ameerpet,0,15,60.0,17.6,40.0
+Hyderabad,Dilsukhnagar,5,19,53.8,17.5,57.9
+Visakhapatnam,Kommadi,5,7,57.5,17.5,57.1
+Visakhapatnam,Jagadamba,0,11,55.4,17.4,45.5
+Visakhapatnam,Kommadi,23,71,56.0,17.3,54.9
+Vijayawada,Governorpet,7,28,61.0,16.8,57.1
+Vijayawada,Auto Nagar,6,13,60.1,16.7,61.5
+Hyderabad,Chandanagar,4,20,59.8,16.5,50.0
+Vijayawada,Gunadala,7,25,55.8,16.3,52.0
+Visakhapatnam,Dwaraka Nagar,8,56,59.1,16.1,46.4
+Visakhapatnam,Kommadi,9,55,57.8,16.0,50.9
+Visakhapatnam,Kommadi,4,7,51.2,15.9,57.1
+Hyderabad,Miyapur,1,7,55.1,15.8,57.1
+Visakhapatnam,Bheemunipatnam,2,5,54.7,15.8,80.0
+Visakhapatnam,Bheemunipatnam,0,13,50.3,15.5,38.5
+Vijayawada,Kanuru,4,6,55.4,15.4,66.7
+Visakhapatnam,Rushikonda,1,7,66.5,15.4,42.9
+Visakhapatnam,Bheemunipatnam,5,16,52.4,15.3,43.8
+Visakhapatnam,Bheemunipatnam,6,23,50.5,14.9,47.8
+Hyderabad,Miyapur,5,28,58.6,14.8,50.0
+Visakhapatnam,Dwaraka Nagar,7,50,56.1,14.7,44.0
+Visakhapatnam,Asilmetta,4,8,62.7,14.7,62.5
+Visakhapatnam,Asilmetta,5,14,57.8,14.7,50.0
+Vijayawada,Ramavarappadu,15,78,58.8,14.6,43.6
+Vijayawada,MG Road,6,14,60.6,14.6,64.3
+Hyderabad,Ameerpet,5,23,61.6,14.6,56.5
+Visakhapatnam,Seethammadhara,7,38,52.4,14.6,44.7
+Hyderabad,Begumpet,6,30,59.8,14.5,63.3
+Hyderabad,Kukatpally,3,8,54.3,14.4,50.0
+Vijayawada,Governorpet,4,10,49.9,14.4,40.0

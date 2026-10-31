@@ -1,0 +1,21 @@
+rank,restaurant_id,restaurant_name,cuisine,city,area,completed_orders
+1,R1115,Local Healthy Bites,Healthy,Visakhapatnam,Seethammadhara,42
+2,R3560,Star Biryani Corner,Biryani,Hyderabad,Dilsukhnagar,41
+3,R1296,Classic Rolls & Wraps Hub,Rolls & Wraps,Hyderabad,Miyapur,39
+4,R3688,Authentic Fast Food House,Fast Food,Hyderabad,Gachibowli,39
+5,R3545,Spicy Burger Stop,Burger,Vijayawada,Gunadala,37
+6,R1712,Royal Fast Food Station,Fast Food,Hyderabad,Dilsukhnagar,37
+7,R1647,Quick South Indian Station,South Indian,Hyderabad,Kukatpally,37
+8,R2892,Grand Chinese Express,Chinese,Visakhapatnam,Asilmetta,37
+9,R0156,Royal Thali Station,Thali,Hyderabad,Secunderabad,37
+10,R3109,Authentic Fast Food Bites,Fast Food,Visakhapatnam,Dwaraka Nagar,36
+11,R0059,Fresh North Indian Station,North Indian,Hyderabad,Kondapur,36
+12,R1592,Grand South Indian Cafe,South Indian,Vijayawada,Gunadala,36
+13,R0803,Urban Burger Hub,Burger,Visakhapatnam,Jagadamba,36
+14,R0057,Quick Continental Station,Continental,Hyderabad,Ameerpet,36
+15,R1973,Royal Fast Food House,Fast Food,Hyderabad,Hitech City,36
+16,R2088,Fresh Healthy Diner,Healthy,Visakhapatnam,MVP Colony,36
+17,R0962,Premium North Indian Kitchen,North Indian,Visakhapatnam,Dwaraka Nagar,35
+18,R1174,Authentic Thali Kitchen,Thali,Hyderabad,Jubilee Hills,35
+19,R1047,Classic Healthy Express,Healthy,Hyderabad,Banjara Hills,35
+20,R1245,Classic Seafood Kitchen,Seafood,Visakhapatnam,Jagadamba,35

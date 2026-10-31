@@ -1,0 +1,21 @@
+rating_rank,restaurant_id,restaurant_name,cuisine,city,platform_rating,total_reviews,avg_customer_rating,pct_5_star,pct_low_rating
+1,R0684,Royal North Indian Diner,North Indian,Visakhapatnam,5.0,15,5.0,100.0,0.0
+2,R2708,Classic Fast Food Delight,Fast Food,Hyderabad,5.0,14,5.0,100.0,0.0
+3,R2622,Local Burger Hub,Burger,Vijayawada,5.0,12,5.0,100.0,0.0
+4,R2029,Local Burger Eatery,Burger,Hyderabad,5.0,19,4.95,94.7,0.0
+5,R3607,Premium Desserts Place,Desserts,Vijayawada,4.9,18,4.94,94.4,0.0
+6,R1345,Premium Seafood Eatery,Seafood,Visakhapatnam,5.0,18,4.94,94.4,0.0
+7,R0050,Quick Burger Stop,Burger,Hyderabad,4.9,17,4.94,94.1,0.0
+8,R2572,Fresh North Indian Kitchen,North Indian,Vijayawada,5.0,17,4.94,94.1,0.0
+9,R3414,Urban Rolls & Wraps Express,Rolls & Wraps,Hyderabad,4.9,16,4.94,93.8,0.0
+10,R2378,Star Burger House,Burger,Visakhapatnam,4.8,15,4.93,93.3,0.0
+11,R3937,Local Burger Place,Burger,Hyderabad,5.0,21,4.9,90.5,0.0
+12,R3690,Quick Healthy Eatery,Healthy,Hyderabad,4.7,19,4.89,89.5,0.0
+13,R2454,Local Thali Hub,Thali,Hyderabad,4.9,17,4.88,88.2,0.0
+14,R1849,Spicy Rolls & Wraps Eatery,Rolls & Wraps,Vijayawada,5.0,17,4.88,88.2,0.0
+15,R2430,Home Fast Food Stop,Fast Food,Vijayawada,4.9,16,4.88,87.5,0.0
+16,R2677,Quick Burger Bites,Burger,Hyderabad,4.9,15,4.87,86.7,0.0
+17,R1016,Authentic Healthy Eatery,Healthy,Vijayawada,4.9,15,4.87,86.7,0.0
+18,R1868,Grand North Indian Eatery,North Indian,Hyderabad,5.0,15,4.87,86.7,0.0
+19,R2407,Quick Fast Food Cafe,Fast Food,Hyderabad,5.0,14,4.86,85.7,0.0
+20,R3715,Classic North Indian Point,North Indian,Vijayawada,4.9,21,4.86,90.5,0.0

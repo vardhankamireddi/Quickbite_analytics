@@ -1,0 +1,9 @@
+cancellation_reason,total_cancellations,pct_of_total,avg_order_value_inr
+Restaurant not accepting,1578,12.96,369.82
+Long wait time,1570,12.89,365.28
+Payment failed,1550,12.73,369.59
+Duplicate order,1535,12.6,370.1
+No rider available,1507,12.37,378.9
+Address issue,1485,12.19,376.86
+Customer cancelled,1485,12.19,380.57
+Item unavailable,1468,12.05,372.67

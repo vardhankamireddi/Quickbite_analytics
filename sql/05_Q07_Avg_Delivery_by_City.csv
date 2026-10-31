@@ -1,0 +1,4 @@
+city,total_deliveries,avg_delivery_time_min,min_delivery_time_min,max_delivery_time_min,avg_delay_min,avg_distance_km,on_time_deliveries,on_time_pct
+Vijayawada,17235,46.26,6.6,165.4,4.5,6.84,14277,82.84
+Hyderabad,48359,46.42,5.7,177.1,4.71,6.83,40026,82.77
+Visakhapatnam,22228,46.49,7.8,179.9,4.67,6.84,18454,83.02

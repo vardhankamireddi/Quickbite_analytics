@@ -1,0 +1,25 @@
+hour_of_day,time_segment,total_orders,cancelled_orders,cancellation_rate_pct,avg_order_value_inr,pct_of_daily_orders
+0,Late Night / Early Morning,562,45,8.01,337.53,0.56
+1,Late Night / Early Morning,341,33,9.68,357.7,0.34
+2,Late Night / Early Morning,212,23,10.85,357.02,0.21
+3,Late Night / Early Morning,220,22,10.0,343.43,0.22
+4,Late Night / Early Morning,349,38,10.89,354.28,0.35
+5,Late Night / Early Morning,593,60,10.12,329.94,0.59
+6,Morning (6-11),944,104,11.02,337.68,0.94
+7,Morning (6-11),1742,168,9.64,341.6,1.74
+8,Morning (6-11),2315,237,10.24,341.68,2.32
+9,Morning (6-11),2787,280,10.05,340.23,2.79
+10,Morning (6-11),3506,358,10.21,343.88,3.51
+11,Morning (6-11),5100,539,10.57,345.04,5.1
+12,Lunch Peak (12-14),8027,789,9.83,343.97,8.03
+13,Lunch Peak (12-14),8498,851,10.01,343.01,8.5
+14,Lunch Peak (12-14),5826,562,9.65,343.15,5.83
+15,Afternoon (15-17),3989,405,10.15,347.04,3.99
+16,Afternoon (15-17),3333,350,10.5,342.48,3.33
+17,Afternoon (15-17),5022,500,9.96,344.53,5.02
+18,Dinner Peak (18-22),7457,716,9.6,346.37,7.46
+19,Dinner Peak (18-22),9717,1561,16.06,343.61,9.72
+20,Dinner Peak (18-22),10271,1645,16.02,346.81,10.27
+21,Dinner Peak (18-22),9069,1464,16.14,345.28,9.07
+22,Dinner Peak (18-22),6696,1053,15.73,346.3,6.7
+23,Late Night / Early Morning,3424,375,10.95,344.92,3.42

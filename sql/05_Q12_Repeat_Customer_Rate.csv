@@ -1,0 +1,4 @@
+city,total_customers,one_time_customers,repeat_customers,loyal_customers_5plus,vip_customers_10plus,avg_orders_per_customer,repeat_rate_pct
+Visakhapatnam,4718,665,4053,2113,690,5.36,85.91
+Hyderabad,10211,1463,8748,4638,1527,5.39,85.67
+Vijayawada,3683,566,3117,1599,542,5.34,84.63

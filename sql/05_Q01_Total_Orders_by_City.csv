@@ -1,0 +1,4 @@
+city,total_orders,completed_orders,cancelled_orders,cancellation_rate_pct,pct_of_total
+Hyderabad,55032,48359,6673,12.13,55.03
+Visakhapatnam,25311,22228,3083,12.18,25.31
+Vijayawada,19657,17235,2422,12.32,19.66

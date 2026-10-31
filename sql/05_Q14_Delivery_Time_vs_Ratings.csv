@@ -1,0 +1,7 @@
+delay_bucket,feedback_count,avg_rating,avg_delay_min,high_ratings,low_ratings,pct_high_rating,pct_low_rating
+Early (<=0 min),29435,3.89,-2.5,21532,480,73.2,1.6
+On Time (1-5 min),28813,3.82,2.5,19934,602,69.2,2.1
+Slight Delay (6-15 min),3804,3.57,10.1,2059,181,54.1,4.8
+Moderate Delay (16-30 min),4257,3.2,20.9,1375,605,32.3,14.2
+Significant Delay (31-60 min),2981,2.39,45.1,146,1654,4.9,55.5
+Severe Delay (>60 min),1012,1.97,65.1,4,827,0.4,81.7

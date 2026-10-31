@@ -1,0 +1,101 @@
+restaurant_id,restaurant_name,cuisine,city,area,total_orders,completed_orders,cancel_rate_pct,total_revenue_inr,avg_del_min,on_time_pct,avg_rating,complaint_rate_pct,total_refund_inr,performance_tier
+R1115,Local Healthy Bites,Healthy,Visakhapatnam,Seethammadhara,45,42,6.67,16025.47,47.45,80.0,3.34,37.78,120.41,NEEDS ATTENTION
+R3560,Star Biryani Corner,Biryani,Hyderabad,Dilsukhnagar,44,41,6.82,15813.04,46.8,84.09,3.69,20.45,55.07,AVERAGE
+R0156,Royal Thali Station,Thali,Hyderabad,Secunderabad,39,37,5.13,14337.99,46.2,69.23,3.37,38.46,455.6,NEEDS ATTENTION
+R3376,Local North Indian Express,North Indian,Visakhapatnam,Rushikonda,33,30,9.09,14235.25,45.26,75.76,4.54,9.09,0.0,AVERAGE
+R3988,Spicy Continental Point,Continental,Hyderabad,LB Nagar,31,30,3.23,14089.86,63.11,70.97,3.84,29.03,0.0,NEEDS ATTENTION
+R3353,Fresh Fast Food Express,Fast Food,Vijayawada,Moghalrajpuram,34,32,5.88,13692.84,34.67,67.65,3.96,14.71,0.0,AVERAGE
+R1047,Classic Healthy Express,Healthy,Hyderabad,Banjara Hills,40,35,12.5,13517.36,47.57,75.0,3.04,57.5,475.02,NEEDS ATTENTION
+R2823,Spicy Rolls & Wraps Point,Rolls & Wraps,Visakhapatnam,MVP Colony,33,33,0.0,13400.33,45.35,87.88,3.79,27.27,104.88,NEEDS ATTENTION
+R3967,Grand Burger Place,Burger,Hyderabad,Madhapur,36,32,11.11,13378.29,46.61,61.11,4.41,11.11,0.0,AVERAGE
+R1600,Grand Rolls & Wraps Kitchen,Rolls & Wraps,Vijayawada,Benz Circle,32,31,3.12,13320.99,42.0,78.12,3.6,28.12,276.56,NEEDS ATTENTION
+R1647,Quick South Indian Station,South Indian,Hyderabad,Kukatpally,39,37,5.13,13194.5,44.09,84.62,2.56,82.05,1044.79,NEEDS ATTENTION
+R1483,Quick Pizza Delight,Pizza,Hyderabad,Madhapur,33,32,3.03,13161.67,54.07,63.64,3.92,12.12,1.65,AVERAGE
+R3736,Premium Desserts Stop,Desserts,Hyderabad,Kukatpally,38,34,10.53,13137.89,41.65,68.42,3.04,47.37,1266.61,NEEDS ATTENTION
+R0956,Royal Thali Bites,Thali,Hyderabad,Kondapur,37,34,8.11,13137.12,41.57,83.78,3.85,16.22,0.0,AVERAGE
+R1296,Classic Rolls & Wraps Hub,Rolls & Wraps,Hyderabad,Miyapur,40,39,2.5,13107.04,40.98,80.0,3.91,15.0,149.42,AVERAGE
+R3688,Authentic Fast Food House,Fast Food,Hyderabad,Gachibowli,42,39,7.14,13104.56,39.31,71.43,3.68,21.43,63.06,AVERAGE
+R2039,Star Thali Kitchen,Thali,Hyderabad,Hitech City,33,30,9.09,12962.39,62.68,69.7,3.52,21.21,574.86,AVERAGE
+R1178,Star Desserts Corner,Desserts,Hyderabad,Dilsukhnagar,36,34,5.56,12936.72,37.12,80.56,3.79,16.67,160.19,AVERAGE
+R3122,Classic Thali Bites,Thali,Hyderabad,Jubilee Hills,35,32,8.57,12917.84,48.28,74.29,2.92,65.71,346.76,NEEDS ATTENTION
+R1243,Fresh Seafood Stop,Seafood,Visakhapatnam,Maddilapalem,34,29,14.71,12805.93,50.37,70.59,3.77,23.53,0.0,AVERAGE
+R2341,Classic Chinese Express,Chinese,Visakhapatnam,Seethammadhara,33,31,6.06,12662.22,38.13,81.82,4.28,3.03,0.0,TOP PERFORMER
+R0613,Fresh South Indian Eatery,South Indian,Visakhapatnam,MVP Colony,33,30,9.09,12622.84,47.35,75.76,3.78,18.18,0.0,AVERAGE
+R3545,Spicy Burger Stop,Burger,Vijayawada,Gunadala,41,37,9.76,12476.32,36.78,75.61,3.31,41.46,229.22,NEEDS ATTENTION
+R1592,Grand South Indian Cafe,South Indian,Vijayawada,Gunadala,41,36,12.2,12449.92,58.32,68.29,3.41,36.59,46.11,NEEDS ATTENTION
+R1174,Authentic Thali Kitchen,Thali,Hyderabad,Jubilee Hills,37,35,5.41,12446.97,43.47,67.57,4.21,21.62,26.19,AVERAGE
+R2827,Grand Chinese Corner,Chinese,Visakhapatnam,Kommadi,34,33,2.94,12419.34,44.61,82.35,4.29,11.76,0.0,TOP PERFORMER
+R2088,Fresh Healthy Diner,Healthy,Visakhapatnam,MVP Colony,36,36,0.0,12412.43,46.37,91.67,3.73,22.22,8.61,AVERAGE
+R1973,Royal Fast Food House,Fast Food,Hyderabad,Hitech City,36,36,0.0,12402.95,35.77,91.67,3.52,47.22,0.0,NEEDS ATTENTION
+R1430,Quick Burger Diner,Burger,Vijayawada,Ramavarappadu,35,29,17.14,12375.69,44.06,77.14,3.85,8.57,0.0,AVERAGE
+R3802,Royal Seafood Station,Seafood,Vijayawada,Benz Circle,36,33,8.33,12350.66,56.42,83.33,3.54,33.33,44.21,NEEDS ATTENTION
+R3319,Home Thali Bites,Thali,Vijayawada,Ramavarappadu,35,32,8.57,12340.83,56.1,80.0,3.52,34.29,92.59,NEEDS ATTENTION
+R2053,Urban Healthy Station,Healthy,Hyderabad,Begumpet,34,32,5.88,12312.23,51.0,73.53,3.04,61.76,493.02,NEEDS ATTENTION
+R3996,Star Healthy Corner,Healthy,Hyderabad,Uppal,29,27,6.9,12295.03,48.27,68.97,3.45,41.38,0.0,NEEDS ATTENTION
+R3894,Quick Continental Delight,Continental,Hyderabad,Miyapur,39,34,12.82,12292.79,45.19,64.1,2.59,66.67,927.68,NEEDS ATTENTION
+R3507,Royal Healthy Point,Healthy,Vijayawada,Kanuru,34,30,11.76,12283.64,39.72,76.47,4.29,5.88,121.28,AVERAGE
+R0352,Golden Biryani Station,Biryani,Vijayawada,Kanuru,36,32,11.11,12252.8,47.29,72.22,4.09,8.33,0.0,AVERAGE
+R1146,Tasty South Indian Delight,South Indian,Vijayawada,Machavaram,35,29,17.14,12247.49,44.76,71.43,3.76,20.0,112.35,AVERAGE
+R3178,Star Chinese Station,Chinese,Vijayawada,Benz Circle,30,25,16.67,12239.66,36.25,80.0,3.95,10.0,0.0,AVERAGE
+R1629,Quick Rolls & Wraps Express,Rolls & Wraps,Hyderabad,LB Nagar,32,28,12.5,12234.52,45.44,75.0,4.35,6.25,66.34,AVERAGE
+R0031,Local South Indian Diner,South Indian,Visakhapatnam,Rushikonda,35,32,8.57,12219.66,37.6,82.86,3.7,22.86,0.0,AVERAGE
+R0996,Golden Pizza Express,Pizza,Hyderabad,Gachibowli,32,31,3.12,12216.42,54.58,81.25,4.0,9.38,0.0,TOP PERFORMER
+R0408,Local Pizza Point,Pizza,Hyderabad,Kondapur,34,34,0.0,12195.29,52.74,79.41,2.64,73.53,560.73,NEEDS ATTENTION
+R2340,Premium Pizza Hub,Pizza,Hyderabad,Jubilee Hills,32,31,3.12,12140.44,55.89,59.38,3.37,43.75,299.88,NEEDS ATTENTION
+R3429,Home Continental House,Continental,Vijayawada,Gunadala,34,34,0.0,12105.15,52.23,88.24,4.22,5.88,0.0,TOP PERFORMER
+R3523,Premium Healthy Delight,Healthy,Hyderabad,Uppal,34,32,5.88,12070.25,37.08,91.18,4.09,8.82,0.0,TOP PERFORMER
+R1888,Premium Chinese Diner,Chinese,Hyderabad,Banjara Hills,32,30,6.25,12057.27,42.92,75.0,3.82,12.5,0.0,AVERAGE
+R2354,Local Healthy Station,Healthy,Vijayawada,Machavaram,33,30,9.09,12024.05,53.0,69.7,3.61,21.21,38.99,AVERAGE
+R2056,Tasty Desserts Kitchen,Desserts,Visakhapatnam,Seethammadhara,38,35,7.89,12021.62,35.72,76.32,3.03,60.53,199.86,NEEDS ATTENTION
+R2170,Home Burger Bites,Burger,Hyderabad,Uppal,29,28,3.45,12004.61,41.85,72.41,3.55,31.03,32.96,NEEDS ATTENTION
+R2023,Classic Chinese Cafe,Chinese,Vijayawada,Kanuru,28,25,10.71,11998.55,46.4,71.43,3.0,53.57,232.08,NEEDS ATTENTION
+R2186,Star Fast Food Place,Fast Food,Vijayawada,Moghalrajpuram,32,31,3.12,11996.89,39.78,68.75,2.74,84.38,235.09,NEEDS ATTENTION
+R1855,Authentic Desserts Hub,Desserts,Vijayawada,Governorpet,29,29,0.0,11979.05,42.0,82.76,3.71,27.59,0.0,NEEDS ATTENTION
+R2264,Home Thali Bites,Thali,Hyderabad,Madhapur,43,34,20.93,11947.85,53.28,60.47,2.74,65.12,758.19,NEEDS ATTENTION
+R0566,Royal Continental Delight,Continental,Visakhapatnam,Rushikonda,32,29,9.38,11931.34,53.73,78.12,3.69,25.0,1.29,AVERAGE
+R0592,Spicy Thali Express,Thali,Visakhapatnam,Jagadamba,35,32,8.57,11930.44,53.44,74.29,3.81,17.14,0.0,AVERAGE
+R0962,Premium North Indian Kitchen,North Indian,Visakhapatnam,Dwaraka Nagar,40,35,12.5,11915.0,59.61,67.5,3.11,45.0,632.16,NEEDS ATTENTION
+R1678,Fresh Biryani Express,Biryani,Hyderabad,Secunderabad,37,31,16.22,11910.83,39.33,72.97,3.72,21.62,0.0,AVERAGE
+R3271,Tasty Biryani Eatery,Biryani,Hyderabad,Madhapur,36,31,13.89,11891.11,61.74,58.33,2.93,61.11,599.06,NEEDS ATTENTION
+R0524,Fresh Desserts Stop,Desserts,Vijayawada,Machavaram,38,30,21.05,11887.42,43.45,65.79,4.0,7.89,128.91,NEEDS ATTENTION
+R2076,Golden Seafood Stop,Seafood,Vijayawada,MG Road,36,32,11.11,11884.5,58.06,75.0,3.88,11.11,0.0,AVERAGE
+R0523,Fresh Seafood Bites,Seafood,Vijayawada,Governorpet,28,27,3.57,11883.36,55.22,85.71,3.65,28.57,0.0,NEEDS ATTENTION
+R2461,Royal Chinese House,Chinese,Vijayawada,Ramavarappadu,32,32,0.0,11869.31,47.32,87.5,3.63,28.12,30.94,NEEDS ATTENTION
+R2720,Grand Desserts Eatery,Desserts,Hyderabad,Kondapur,26,24,7.69,11850.44,38.86,80.77,2.95,73.08,64.11,NEEDS ATTENTION
+R2805,Quick North Indian Stop,North Indian,Hyderabad,Miyapur,36,34,5.56,11840.08,61.59,75.0,2.93,66.67,343.7,NEEDS ATTENTION
+R1873,Star Pizza Place,Pizza,Hyderabad,Secunderabad,28,25,10.71,11834.89,55.2,57.14,3.39,32.14,37.99,NEEDS ATTENTION
+R2204,Authentic Biryani House,Biryani,Hyderabad,LB Nagar,35,31,11.43,11824.57,46.24,68.57,4.42,8.57,0.0,AVERAGE
+R1947,Tasty Fast Food Bites,Fast Food,Hyderabad,Uppal,35,35,0.0,11824.56,40.39,77.14,4.21,17.14,0.0,AVERAGE
+R2369,Tasty North Indian Cafe,North Indian,Hyderabad,Kukatpally,37,32,13.51,11820.03,46.78,83.78,4.55,0.0,0.0,AVERAGE
+R3759,Premium South Indian House,South Indian,Hyderabad,LB Nagar,35,32,8.57,11812.48,54.78,77.14,4.29,5.71,0.0,AVERAGE
+R0803,Urban Burger Hub,Burger,Visakhapatnam,Jagadamba,38,36,5.26,11782.11,36.02,84.21,3.97,7.89,14.93,AVERAGE
+R2842,Grand Fast Food Bites,Fast Food,Visakhapatnam,Gajuwaka,33,30,9.09,11728.34,41.59,63.64,3.04,60.61,364.61,NEEDS ATTENTION
+R0817,Royal South Indian Corner,South Indian,Visakhapatnam,Bheemunipatnam,34,33,2.94,11725.19,39.5,88.24,3.62,29.41,162.87,NEEDS ATTENTION
+R1160,Quick Rolls & Wraps Delight,Rolls & Wraps,Hyderabad,Gachibowli,37,34,8.11,11721.72,42.55,78.38,4.19,10.81,164.72,AVERAGE
+R2991,Spicy Seafood Place,Seafood,Hyderabad,Dilsukhnagar,34,28,17.65,11711.47,46.39,70.59,3.32,47.06,23.32,NEEDS ATTENTION
+R3747,Royal Seafood Diner,Seafood,Visakhapatnam,MVP Colony,39,34,12.82,11698.09,58.56,69.23,3.1,58.97,556.86,NEEDS ATTENTION
+R2413,Star South Indian Cafe,South Indian,Hyderabad,Uppal,35,31,11.43,11679.02,44.78,74.29,3.44,37.14,61.52,NEEDS ATTENTION
+R0512,Star Biryani Station,Biryani,Hyderabad,Banjara Hills,38,34,10.53,11673.23,46.0,71.05,4.17,7.89,0.0,AVERAGE
+R1179,Urban Desserts Stop,Desserts,Visakhapatnam,Kommadi,35,32,8.57,11656.39,38.12,74.29,3.33,40.0,402.87,NEEDS ATTENTION
+R0492,Home Continental Eatery,Continental,Visakhapatnam,Maddilapalem,37,30,18.92,11608.89,38.75,75.68,3.1,43.24,132.48,NEEDS ATTENTION
+R0132,Classic North Indian Station,North Indian,Hyderabad,Secunderabad,29,27,6.9,11583.4,39.05,75.86,3.77,24.14,326.84,AVERAGE
+R1659,Fresh Healthy House,Healthy,Hyderabad,Kukatpally,36,29,19.44,11570.37,52.9,63.89,3.74,22.22,10.46,AVERAGE
+R0867,Classic Healthy Station,Healthy,Hyderabad,Begumpet,37,33,10.81,11566.99,39.46,78.38,2.93,64.86,778.24,NEEDS ATTENTION
+R0344,Classic South Indian Cafe,South Indian,Hyderabad,LB Nagar,39,34,12.82,11565.55,54.17,69.23,4.08,7.69,0.0,AVERAGE
+R2929,Fresh Biryani Kitchen,Biryani,Visakhapatnam,Dwaraka Nagar,36,31,13.89,11565.27,49.29,83.33,4.0,8.33,0.0,AVERAGE
+R1007,Urban Thali Express,Thali,Visakhapatnam,Kommadi,30,28,6.67,11545.61,48.37,76.67,3.35,43.33,0.0,NEEDS ATTENTION
+R1339,Premium Seafood Hub,Seafood,Hyderabad,Banjara Hills,26,24,7.69,11530.0,57.56,92.31,3.72,19.23,0.0,AVERAGE
+R2524,Quick Thali Eatery,Thali,Hyderabad,Ameerpet,32,29,9.38,11511.5,46.47,78.12,4.86,3.12,0.0,AVERAGE
+R1533,Spicy Rolls & Wraps Diner,Rolls & Wraps,Visakhapatnam,Seethammadhara,28,25,10.71,11501.15,42.55,78.57,4.61,7.14,0.0,AVERAGE
+R0267,Classic North Indian House,North Indian,Visakhapatnam,Maddilapalem,29,25,13.79,11497.85,56.8,79.31,4.0,6.9,0.0,AVERAGE
+R3346,Quick Thali Point,Thali,Visakhapatnam,Gajuwaka,30,27,10.0,11491.31,44.04,73.33,2.77,70.0,370.02,NEEDS ATTENTION
+R3073,Home Pizza House,Pizza,Hyderabad,Jubilee Hills,32,29,9.38,11489.3,47.69,81.25,3.08,62.5,220.08,NEEDS ATTENTION
+R0494,Royal Chinese Eatery,Chinese,Hyderabad,Kondapur,34,33,2.94,11487.09,47.58,82.35,4.34,2.94,0.0,TOP PERFORMER
+R1280,Spicy Desserts Cafe,Desserts,Hyderabad,Hitech City,35,33,5.71,11477.83,38.49,71.43,3.0,65.71,225.28,NEEDS ATTENTION
+R2022,Golden Healthy Stop,Healthy,Visakhapatnam,Seethammadhara,33,31,6.06,11472.07,54.94,81.82,4.08,6.06,0.0,TOP PERFORMER
+R3051,Spicy Fast Food Stop,Fast Food,Hyderabad,Madhapur,27,26,3.7,11464.56,33.15,92.59,4.16,7.41,0.0,TOP PERFORMER
+R2793,Quick Thali Hub,Thali,Visakhapatnam,Maddilapalem,34,32,5.88,11462.62,48.05,76.47,4.0,8.82,37.76,AVERAGE
+R3109,Authentic Fast Food Bites,Fast Food,Visakhapatnam,Dwaraka Nagar,39,36,7.69,11458.14,41.77,74.36,4.1,7.69,6.03,AVERAGE
+R0559,Local Healthy Place,Healthy,Visakhapatnam,Gajuwaka,34,28,17.65,11438.24,47.73,70.59,3.57,20.59,0.0,AVERAGE
+R3554,Royal Pizza House,Pizza,Hyderabad,Jubilee Hills,31,29,6.45,11423.78,43.44,77.42,3.58,29.03,85.03,NEEDS ATTENTION
+R1204,Authentic Chinese Place,Chinese,Hyderabad,Chandanagar,36,32,11.11,11420.05,54.81,80.56,3.89,11.11,112.09,AVERAGE

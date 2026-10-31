@@ -1,0 +1,5 @@
+customer_segment,customer_count,segment_revenue_inr,avg_lifetime_value_inr,avg_order_value_inr,pct_of_total_revenue
+1 - One-time Customer,3093,1068533.97,345.47,345.47,3.53
+10+ Orders (Loyal/VIP),2121,9900429.13,4667.81,343.61,32.71
+2-3 Orders,5808,4907135.62,844.89,344.42,16.21
+4-9 Orders (Regular),7214,14392540.46,1995.08,345.4,47.55

@@ -1,0 +1,6 @@
+distance_bucket,total_deliveries,avg_delivery_time_min,avg_delay_min,delay_rate_pct,avg_distance_km
+0-2 km (Very Close),1188,28.4,4.8,17.76,1.7
+2-5 km (Close),29792,35.6,4.7,17.42,3.77
+5-8 km (Medium),31592,44.6,4.5,16.92,6.37
+8-12 km (Far),17794,56.3,4.7,17.03,9.62
+12+ km (Very Far),7456,76.4,4.8,17.31,15.2

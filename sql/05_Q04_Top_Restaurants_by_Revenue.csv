@@ -1,0 +1,21 @@
+revenue_rank,restaurant_id,restaurant_name,cuisine,city,total_orders,total_revenue_inr,avg_order_value_inr
+1,R1115,Local Healthy Bites,Healthy,Visakhapatnam,42,16025.47,381.56
+2,R3560,Star Biryani Corner,Biryani,Hyderabad,41,15813.04,385.68
+3,R0156,Royal Thali Station,Thali,Hyderabad,37,14337.99,387.51
+4,R3376,Local North Indian Express,North Indian,Visakhapatnam,30,14235.25,474.51
+5,R3988,Spicy Continental Point,Continental,Hyderabad,30,14089.86,469.66
+6,R3353,Fresh Fast Food Express,Fast Food,Vijayawada,32,13692.84,427.9
+7,R1047,Classic Healthy Express,Healthy,Hyderabad,35,13517.36,386.21
+8,R2823,Spicy Rolls & Wraps Point,Rolls & Wraps,Visakhapatnam,33,13400.33,406.07
+9,R3967,Grand Burger Place,Burger,Hyderabad,32,13378.29,418.07
+10,R1600,Grand Rolls & Wraps Kitchen,Rolls & Wraps,Vijayawada,31,13320.99,429.71
+11,R1647,Quick South Indian Station,South Indian,Hyderabad,37,13194.5,356.61
+12,R1483,Quick Pizza Delight,Pizza,Hyderabad,32,13161.67,411.3
+13,R3736,Premium Desserts Stop,Desserts,Hyderabad,34,13137.89,386.41
+14,R0956,Royal Thali Bites,Thali,Hyderabad,34,13137.12,386.39
+15,R1296,Classic Rolls & Wraps Hub,Rolls & Wraps,Hyderabad,39,13107.04,336.08
+16,R3688,Authentic Fast Food House,Fast Food,Hyderabad,39,13104.56,336.01
+17,R2039,Star Thali Kitchen,Thali,Hyderabad,30,12962.39,432.08
+18,R1178,Star Desserts Corner,Desserts,Hyderabad,34,12936.72,380.49
+19,R3122,Classic Thali Bites,Thali,Hyderabad,32,12917.84,403.68
+20,R1243,Fresh Seafood Stop,Seafood,Visakhapatnam,29,12805.93,441.58

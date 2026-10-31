@@ -1,0 +1,31 @@
+restaurant_id,restaurant_name,city,cuisine,total_orders,avg_rating,cancel_rate_pct,complaint_rate_pct,avg_delivery_min,total_refunds_inr,poor_perf_flags,performance_status
+R1995,Fresh South Indian Diner,Visakhapatnam,South Indian,20,2.0,20.0,70.0,32.53,975.26,3,CRITICAL - All 3 flags
+R2398,Quick Chinese Delight,Hyderabad,Chinese,26,2.12,26.92,65.38,48.14,1043.5,3,CRITICAL - All 3 flags
+R1285,Authentic South Indian Corner,Hyderabad,South Indian,26,2.24,19.23,65.38,47.5,787.63,3,CRITICAL - All 3 flags
+R2969,Authentic South Indian Stop,Vijayawada,South Indian,23,2.31,26.09,56.52,41.61,490.44,3,CRITICAL - All 3 flags
+R2512,Classic South Indian Station,Vijayawada,South Indian,21,2.36,23.81,47.62,49.11,570.77,3,CRITICAL - All 3 flags
+R3811,Tasty South Indian Delight,Visakhapatnam,South Indian,21,2.43,19.05,61.9,56.64,617.03,3,CRITICAL - All 3 flags
+R0789,Classic Biryani Express,Hyderabad,Biryani,26,2.47,23.08,57.69,66.96,705.81,3,CRITICAL - All 3 flags
+R1170,Golden Fast Food Delight,Hyderabad,Fast Food,27,2.47,37.04,55.56,36.69,682.69,3,CRITICAL - All 3 flags
+R0388,Local Burger Place,Hyderabad,Burger,26,2.47,15.38,65.38,48.92,848.54,3,CRITICAL - All 3 flags
+R2600,Grand Thali Express,Hyderabad,Thali,25,2.47,24.0,68.0,47.75,832.49,3,CRITICAL - All 3 flags
+R3675,Home Chinese Express,Visakhapatnam,Chinese,29,2.5,27.59,41.38,50.09,399.72,3,CRITICAL - All 3 flags
+R1407,Premium Chinese Bites,Vijayawada,Chinese,33,2.52,15.15,60.61,51.63,664.33,3,CRITICAL - All 3 flags
+R0449,Home Burger Eatery,Hyderabad,Burger,29,2.53,17.24,51.72,46.18,700.9,3,CRITICAL - All 3 flags
+R1571,Urban Biryani Cafe,Visakhapatnam,Biryani,28,2.53,21.43,53.57,61.48,335.19,3,CRITICAL - All 3 flags
+R0649,Classic Burger Hub,Visakhapatnam,Burger,25,2.56,16.0,64.0,43.06,428.57,3,CRITICAL - All 3 flags
+R2411,Spicy Continental Hub,Visakhapatnam,Continental,27,2.59,22.22,55.56,43.96,841.63,3,CRITICAL - All 3 flags
+R3635,Royal Fast Food Cafe,Hyderabad,Fast Food,22,2.62,27.27,40.91,53.45,720.28,3,CRITICAL - All 3 flags
+R2389,Tasty Desserts Eatery,Visakhapatnam,Desserts,27,2.62,18.52,59.26,56.64,524.28,3,CRITICAL - All 3 flags
+R3245,Quick South Indian Diner,Visakhapatnam,South Indian,29,2.63,20.69,65.52,48.08,676.13,3,CRITICAL - All 3 flags
+R3695,Authentic Pizza Place,Hyderabad,Pizza,31,2.65,19.35,54.84,50.18,407.76,3,CRITICAL - All 3 flags
+R0207,Home Pizza Point,Hyderabad,Pizza,34,2.65,17.65,55.88,61.35,706.8,3,CRITICAL - All 3 flags
+R2809,Spicy Continental House,Hyderabad,Continental,26,2.67,26.92,57.69,52.95,204.24,3,CRITICAL - All 3 flags
+R2937,Quick North Indian House,Visakhapatnam,North Indian,22,2.67,22.73,68.18,48.06,189.16,3,CRITICAL - All 3 flags
+R3134,Royal Desserts Cafe,Hyderabad,Desserts,31,2.67,16.13,64.52,37.88,837.95,3,CRITICAL - All 3 flags
+R3281,Quick Continental Station,Hyderabad,Continental,21,2.67,23.81,66.67,49.66,428.25,3,CRITICAL - All 3 flags
+R3052,Home Rolls & Wraps Station,Hyderabad,Rolls & Wraps,24,2.68,16.67,70.83,38.83,368.51,3,CRITICAL - All 3 flags
+R0459,Fresh Healthy Delight,Hyderabad,Healthy,30,2.7,23.33,66.67,44.11,432.24,3,CRITICAL - All 3 flags
+R1038,Premium Biryani Place,Visakhapatnam,Biryani,31,2.71,19.35,54.84,60.2,208.57,3,CRITICAL - All 3 flags
+R0364,Home Seafood Cafe,Hyderabad,Seafood,24,2.71,16.67,58.33,45.92,139.58,3,CRITICAL - All 3 flags
+R0499,Local Seafood Place,Vijayawada,Seafood,23,2.71,17.39,56.52,47.97,293.53,3,CRITICAL - All 3 flags

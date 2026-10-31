@@ -1,0 +1,36 @@
+city,area,total_deliveries,avg_delivery_time,avg_delay,delay_rate_pct,time_above_city_avg,area_delay_rank
+Hyderabad,Chandanagar,3106,47.8,5.2,18.22,1.4,1
+Hyderabad,Miyapur,3557,47.1,4.9,17.99,0.7,2
+Hyderabad,Secunderabad,2968,47.2,4.8,17.79,0.8,3
+Hyderabad,Jubilee Hills,3647,46.5,4.8,17.69,0.1,4
+Hyderabad,Madhapur,3002,46.4,4.8,17.52,-0.0,5
+Hyderabad,Gachibowli,2995,46.4,4.9,17.5,-0.0,6
+Hyderabad,Kondapur,3810,47.0,4.7,17.38,0.6,7
+Hyderabad,Hitech City,3322,46.2,4.7,17.22,-0.2,8
+Hyderabad,Uppal,2827,44.7,4.5,17.16,-1.7,9
+Hyderabad,Kukatpally,3031,46.3,4.9,17.12,-0.1,10
+Hyderabad,Dilsukhnagar,3208,46.3,4.7,16.96,-0.1,11
+Hyderabad,Banjara Hills,3298,46.2,4.4,16.65,-0.2,12
+Hyderabad,Ameerpet,3690,45.8,4.7,16.61,-0.6,13
+Hyderabad,Begumpet,2885,46.5,4.2,16.5,0.1,14
+Hyderabad,LB Nagar,3013,45.8,4.4,16.06,-0.7,15
+Vijayawada,Moghalrajpuram,1776,46.9,4.9,18.86,0.7,1
+Vijayawada,Machavaram,2119,46.1,4.6,17.98,-0.1,2
+Vijayawada,Governorpet,1925,46.3,4.8,17.82,0.1,3
+Vijayawada,Kanuru,1975,47.0,4.6,17.37,0.8,4
+Vijayawada,MG Road,1288,44.9,4.4,17.31,-1.3,5
+Vijayawada,Benz Circle,1467,46.1,4.7,17.18,-0.1,6
+Vijayawada,Gunadala,1739,46.5,4.3,16.91,0.3,7
+Vijayawada,Auto Nagar,1560,46.1,4.5,16.41,-0.1,8
+Vijayawada,Patamata,1569,45.3,4.0,15.81,-0.9,9
+Vijayawada,Ramavarappadu,1817,46.8,4.2,15.58,0.6,10
+Visakhapatnam,Kommadi,2251,47.3,5.7,19.86,0.8,1
+Visakhapatnam,Bheemunipatnam,2042,46.4,5.0,18.02,-0.1,2
+Visakhapatnam,Jagadamba,1947,46.2,4.8,17.51,-0.3,3
+Visakhapatnam,Asilmetta,2525,46.2,4.5,17.07,-0.2,4
+Visakhapatnam,Seethammadhara,2449,44.8,4.6,16.99,-1.7,5
+Visakhapatnam,Maddilapalem,1866,45.4,4.5,16.51,-1.1,6
+Visakhapatnam,Dwaraka Nagar,2224,47.4,4.5,16.19,1.0,7
+Visakhapatnam,Rushikonda,2300,47.2,4.4,16.0,0.8,8
+Visakhapatnam,Gajuwaka,2392,46.7,4.4,15.97,0.2,9
+Visakhapatnam,MVP Colony,2232,47.1,4.2,15.82,0.6,10

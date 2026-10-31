@@ -1,0 +1,21 @@
+rank,restaurant_id,restaurant_name,city,cuisine,total_orders,cancelled_orders,cancellation_rate_pct
+1,R1170,Golden Fast Food Delight,Hyderabad,Fast Food,27,10,37.04
+2,R3096,Grand Desserts Corner,Visakhapatnam,Desserts,20,7,35.0
+3,R2828,Classic Fast Food Eatery,Hyderabad,Fast Food,23,8,34.78
+4,R2252,Quick Rolls & Wraps Stop,Vijayawada,Rolls & Wraps,21,7,33.33
+5,R2652,Authentic Biryani Stop,Hyderabad,Biryani,21,7,33.33
+6,R1157,Authentic Chinese Point,Hyderabad,Chinese,21,7,33.33
+7,R0753,Classic Fast Food Bites,Visakhapatnam,Fast Food,33,11,33.33
+8,R3157,Golden Desserts House,Vijayawada,Desserts,24,8,33.33
+9,R2972,Grand Burger Kitchen,Hyderabad,Burger,28,9,32.14
+10,R2737,Golden Fast Food House,Vijayawada,Fast Food,25,8,32.0
+11,R0679,Local Pizza House,Vijayawada,Pizza,25,8,32.0
+12,R2060,Home South Indian Stop,Hyderabad,South Indian,25,8,32.0
+13,R3860,Local Pizza Place,Vijayawada,Pizza,25,8,32.0
+14,R3529,Local Healthy Place,Vijayawada,Healthy,22,7,31.82
+15,R0793,Home Thali Station,Hyderabad,Thali,22,7,31.82
+16,R3150,Tasty Fast Food Place,Hyderabad,Fast Food,22,7,31.82
+17,R3437,Grand Burger Point,Hyderabad,Burger,22,7,31.82
+18,R3649,Royal Burger Eatery,Visakhapatnam,Burger,29,9,31.03
+19,R0886,Spicy Thali Cafe,Hyderabad,Thali,26,8,30.77
+20,R3029,Home South Indian Diner,Visakhapatnam,South Indian,26,8,30.77

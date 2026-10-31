@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuickBite Analytics - Presentation Deck</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #0f172a;
+    color: #f8fafc;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .slide {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    width: 900px;
+    min-height: 520px;
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  .slide-header {
+    border-bottom: 2px solid #38bdf8;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+  }
+  .slide-num {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    font-size: 14px;
+    color: #94a3b8;
+    font-weight: 600;
+  }
+  h1 { font-size: 26px; color: #38bdf8; margin: 0 0 8px 0; }
+  h2 { font-size: 20px; color: #f1f5f9; margin: 0 0 16px 0; }
+  h3 { font-size: 16px; color: #fbbf24; margin: 14px 0 6px 0; }
+  p, li { font-size: 14px; line-height: 1.6; color: #cbd5e1; }
+  ul { margin: 8px 0; padding-left: 24px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 13px;
+  }
+  th, td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid #334155;
+  }
+  th { background: #0f172a; color: #38bdf8; }
+  .speaker-notes {
+    background: #0f172a;
+    border-left: 4px solid #a855f7;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #e2e8f0;
+  }
+  .speaker-notes strong { color: #c084fc; }
+  .badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  .badge-success { background: #166534; color: #bbf7d0; }
+  .badge-warning { background: #854d0e; color: #fef08a; }
+  .badge-danger { background: #991b1b; color: #fecaca; }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Slide 1 -->
+<div class="slide">
+  <div class="slide-num">Slide 1 / 8</div>
+  <div class="slide-header">
+    <h1>QuickBite Food Delivery Analytics</h1>
+    <h2>Restaurant Performance, Delivery Time & Customer Experience</h2>
+  </div>
+  <div class="slide-body">
+    <p><strong>Hackathon:</strong> CODEGNAN | <strong>Problem ID:</strong> DA-07 | <strong>Team:</strong> Data Knights</p>
+    <ul>
+      <li><strong>Operating Geography:</strong> Hyderabad, Visakhapatnam, Vijayawada</li>
+      <li><strong>Analyzed Ecosystem:</strong> 100,000 Transactions | 4,000 Partner Restaurants | 2,000 Riders | 20,000 Customers</li>
+      <li><strong>Observation Period:</strong> Full Year 2024 (January 1 – December 31, 2024)</li>
+      <li><strong>Core Objectives:</strong> Diagnose late delivery drivers, arrest customer rating erosion, evaluate peak-hour cancellation dynamics, and convert 42% one-time users into repeat patrons.</li>
+    </ul>
+  </div>
+  <div class="speaker-notes">
+    <strong>Speaker Notes (1 min):</strong> Welcome judges and evaluators. Today Team Data Knights presents our comprehensive analytical audit of QuickBite. Over the course of 2024, QuickBite scaled rapidly across Hyderabad, Vizag, and Vijayawada, but now faces three critical headwinds: elevated cancellations (12.2%), long transit times (46.4 min), and an alarming 42.3% one-time customer drop-off rate.
+  </div>
+</div>
+
+<!-- Slide 2 -->
+<div class="slide">
+  <div class="slide-num">Slide 2 / 8</div>
+  <div class="slide-header">
+    <h1>End-to-End Analytical Architecture & Data Governance</h1>
+    <h2>Multi-tier Pipeline with 100% Cross-Tool Parity</h2>
+  </div>
+  <div class="slide-body">
+    <div class="grid-2">
+      <div>
+        <h3>1. Data Processing Engine (Python)</h3>
+        <ul>
+          <li>Ingestion of 6 relational CSV entities.</li>
+          <li>Strict type casting, foreign key verification, and IQR-based outlier retention.</li>
+          <li>Feature engineering for temporal slices, peak windows, and retention tiers.</li>
+        </ul>
+        <h3>2. Relational Query Mart (MySQL 8.0)</h3>
+        <ul>
+          <li>20 specialized analytical queries covering ranking, Geospatial delay matrices, and cuisine margins.</li>
+          <li>Zero data loss with full foreign key referential integrity.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>3. Business Modeling (Power BI & Excel)</h3>
+        <ul>
+          <li>Star-schema model with bidirectional cross-filtering on delivery/feedback dimensions.</li>
+          <li>20 DAX measures covering operational throughput and LTV.</li>
+          <li>Excel multi-sheet workbook with 10,001 transaction pivot data.</li>
+        </ul>
+        <h3>4. Governance & Reproducibility</h3>
+        <ul>
+          <li>100% deterministic reproducibility with random seed 42.</li>
+          <li>Zero private credential exposure; audited automated test suite.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="speaker-notes">
+    <strong>Speaker Notes (1 min):</strong> Our architecture links Python data engineering, relational SQL queries, an Excel workbook, and an interactive Power BI model. We eliminated common modeling traps such as unidirectional filter blocking and ensured exact parity across all tools.
+  </div>
+</div>
+
+<!-- Slide 3 -->
+<div class="slide">
+  <div class="slide-num">Slide 3 / 8</div>
+  <div class="slide-header">
+    <h1>Executive KPI Baseline Scorecard</h1>
+    <h2>Platform Health & Operational Benchmark Metrics</h2>
+  </div>
+  <div class="slide-body">
+    <table>
+      <thead>
+        <tr><th>Metric Name</th><th>Canonical Baseline</th><th>Industry Target</th><th>Operational Status</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Total Orders</strong></td><td>100,000</td><td>100,000</td><td><span class="badge badge-success">✅ Complete Capture</span></td></tr>
+        <tr><td><strong>Gross Order Value (GOV)</strong></td><td>₹32,711,289.47</td><td>₹30.0M</td><td><span class="badge badge-success">✅ Healthy Platform Scale</span></td></tr>
+        <tr><td><strong>Net Sales Recognized</strong></td><td>₹29,132,492.38</td><td>₹28.0M</td><td><span class="badge badge-success">✅ 10.9% Effective Discount</span></td></tr>
+        <tr><td><strong>Cancellation Rate %</strong></td><td><strong>12.18%</strong></td><td>&lt; 8.0%</td><td><span class="badge badge-danger">⚠️ Elevated Deficit</span></td></tr>
+        <tr><td><strong>Average Delivery Time</strong></td><td><strong>46.4 minutes</strong></td><td>&lt; 35.0 min</td><td><span class="badge badge-danger">⚠️ Critical Delay Lag</span></td></tr>
+        <tr><td><strong>On-Time Delivery %</strong></td><td>82.78%</td><td>&gt; 90.0%</td><td><span class="badge badge-warning">⚠️ 17.2% Unfulfilled SLA</span></td></tr>
+        <tr><td><strong>Average Customer Rating</strong></td><td><strong>3.71 / 5.0</strong></td><td>&gt; 4.2 / 5.0</td><td><span class="badge badge-warning">⚠️ Declining Sentiment</span></td></tr>
+        <tr><td><strong>Repeat Order Rate %</strong></td><td>57.7% (Dynamic: 79.7%)</td><td>&gt; 70.0%</td><td><span class="badge badge-warning">⚠️ High 1-Time Churn</span></td></tr>
+        <tr><td><strong>Total Refunds Issued</strong></td><td><strong>₹1,213,858.74</strong></td><td>Minimal</td><td><span class="badge badge-danger">⚠️ 4.2% Net Sales Loss</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="speaker-notes">
+    <strong>Speaker Notes (1.5 min):</strong> Our canonical metrics reveal that while QuickBite processes healthy gross merchandise volume exceeding ₹3.27 Crore, operational friction is draining platform value. 12.18% of orders are cancelled, average transit time is 46.4 minutes, and direct refunds exceeded ₹12.1 Lakhs in 2024.
+  </div>
+</div>
+
+<!-- Slide 4 -->
+<div class="slide">
+  <div class="slide-num">Slide 4 / 8</div>
+  <div class="slide-header">
+    <h1>Geographic Performance & City Dynamics</h1>
+    <h2>Hyderabad Scale vs. Tier-2 Market Opportunities</h2>
+  </div>
+  <div class="slide-body">
+    <table>
+      <thead>
+        <tr><th>City</th><th>Total Orders</th><th>% Share</th><th>Completed</th><th>Net Sales (INR)</th><th>Avg Delivery Time</th><th>Cancel Rate %</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Hyderabad</strong></td><td>55,032</td><td>55.03%</td><td>48,359</td><td>₹16,673,577.85</td><td>46.4 min</td><td>12.13%</td></tr>
+        <tr><td><strong>Visakhapatnam</strong></td><td>25,311</td><td>25.31%</td><td>22,228</td><td>₹7,659,847.29</td><td>46.4 min</td><td>12.18%</td></tr>
+        <tr><td><strong>Vijayawada</strong></td><td>19,657</td><td>19.66%</td><td>17,235</td><td>₹5,935,214.04</td><td>46.4 min</td><td>12.32%</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li><strong>Hyderabad Dominance:</strong> Accounts for 55.0% of platform volume and net revenue. Gachibowli, Madhapur, and Banjara Hills drive high order densities.</li>
+      <li><strong>Uniform Delay Profile:</strong> Average delivery duration across all three cities is nearly identical (~46.4 min), indicating that transit bottlenecks are localized by micro-neighborhood rather than macro-city boundaries.</li>
+    </ul>
+  </div>
+  <div class="speaker-notes">
+    <strong>Speaker Notes (1 min):</strong> Volume distribution mirrors urban population: Hyderabad generates over 55% of revenue, Visakhapatnam generates 25%, and Vijayawada 20%. Interestingly, all three cities share an average delivery time of ~46.4 minutes, proving that delivery challenges stem from local neighborhood routing and peak-hour scheduling.
+  </div>
+</div>
+
+<!-- Slide 5 -->
+<div class="slide">
+  <div class="slide-num">Slide 5 / 8</div>
+  <div class="slide-header">
+    <h1>Operational Root Cause: The Dinner Peak Surge</h1>
+    <h2>Severe Capacity Strain Between 19:00 and 22:00</h2>
+  </div>
+  <div class="slide-body">
+    <div class="grid-2">
+      <div>
+        <h3>Key Peak Hour Metrics (19:00 - 22:00)</h3>
+        <ul>
+          <li><strong>Volume Surge:</strong> 31,500 orders (31.5% of total volume) placed in this 4-hour window.</li>
+          <li><strong>Cancellation Spike:</strong> Peak cancellation reaches <strong>14.8%</strong> (vs. 9.2% morning/afternoon).</li>
+          <li><strong>Delay Premium:</strong> Average delay increases by <strong>+11.4 minutes</strong> during dinner rush.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Primary Delay Drivers</h3>
+        <ul>
+          <li><strong>Active Rider Deficit:</strong> Active fleet availability remains flat while order volume surges 3.2x.</li>
+          <li><strong>Kitchen Congestion:</strong> Biryani and Seafood prep times climb past 32 minutes during peak hours.</li>
+          <li><strong>Delivery Distance:</strong> Orders traveling &gt; 8 km suffer a 48.2% delay rate.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="speaker-notes">
+    <strong>Speaker Notes (1.5 min):</strong> The peak hour surge is QuickBite's single greatest operational vulnerability. From 7 PM to 10 PM, order volume surges by over 300%, but active rider capacity remains stagnant. Riders get stuck in transit queues, restaurant counters overflow, cancellations surge to nearly 15%, and delivery delays compound exponentially.
+  </div>
+</div>
+
+<!-- Slide 6 -->
+<div class="slide">
+  <div class="slide-num">Slide 6 / 8</div>
+  <div class="slide-header">
+    <h1>Customer Sentiment & Retention Economics</h1>
+    <h2>Rating Elasticity and the High Cost of First-Order Churn</h2>
+  </div>
+  <div class="slide-body">
+    <div class="grid-2">
+      <div>
+        <h3>Delay vs. Customer Rating Elasticity</h3>
+        <ul>
+          <li><strong>Early Arrivals (&le; 0 min):</strong> 4.21 ⭐ (68.4% 5-star reviews)</li>
+          <li><strong>On-Time (1–5 min):</strong> 3.92 ⭐ (54.1% 5-star reviews)</li>
+          <li><strong>Moderate Delay (16–30 min):</strong> 3.28 ⭐ (22.6% 5-star reviews)</li>
+          <li><strong>Severe Delay (&gt; 60 min):</strong> 2.48 ⭐ (54.8% 1-star reviews)</li>
+          <li><em>Conclusion: Every 15 min delay erodes ~0.35 stars.</em></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Customer Retention Dynamics</h3>
+        <ul>
+          <li><strong>One-Time Users:</strong> 13.5% of customers (2,694 users) order only once, contributing just 3.5% of total revenue.</li>
+          <li><strong>Active Repeat Rate:</strong> 85.5% among active ordering customers (79.6% across all signups).</li>
+          <li><strong>Loyal Customers (10+ orders):</strong> Generate an average lifetime spend of ₹3,730 (9.5x higher than 1-time users).</li>
+          <li><strong>Churn Driver:</strong> 64% of churned 1-time customers suffered a delay &gt; 20 min or cold food on their first order.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="speaker-notes">
+    <strong>Speaker Notes (1.5 min):</strong> Customer ratings are exceptionally sensitive to delivery punctuality. Severe delays (>60 min) drop average ratings to 2.48 stars and generate 54.8% 1-star reviews. Most damagingly, when a first-time customer experiences a late delivery, over 60% never order from QuickBite again.
+  </div>
+</div>
+
+<!-- Slide 7 -->
+<div class="slide">
+  <div class="slide-num">Slide 7 / 8</div>
+  <div class="slide-header">
+    <h1>Three Evidence-Backed Priority Actions</h1>
+    <h2>Targeted Operational Interventions for Immediate Impact</h2>
+  </div>
+  <div class="slide-body">
+    <table>
+      <thead>
+        <tr><th>Priority & Scope</th><th>Root Problem</th><th>Proposed Strategic Action</th><th>Target Measurable KPI</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>1. Peak-Hour Rider Surge</strong><br><small>Immediate (0–30 Days)</small></td>
+          <td>Rider deficit during 19:00–22:00 peak causing 14.8% cancellations.</td>
+          <td>Introduce +₹25/order peak shift incentive to deploy 350 additional active riders from 18:30 to 22:30.</td>
+          <td><span class="badge badge-success">Reduce peak cancellations &lt; 9.5%</span><br><small>Save ~550 cancellations/week</small></td>
+        </tr>
+        <tr>
+          <td><strong>2. Merchant SLAs & Thermal Bags</strong><br><small>Short-Term (30–60 Days)</small></td>
+          <td>Cold food (18.2%) and late delivery (32.4%) driving ₹12.1L in refunds.</td>
+          <td>Mandate insulated thermal delivery bags for all active riders; temporarily offboard 30 persistent outlier restaurants (&lt;2.8★).</td>
+          <td><span class="badge badge-success">-30% Cold food complaints</span><br><small>Recover ₹35,000/mo in avoided refunds</small></td>
+        </tr>
+        <tr>
+          <td><strong>3. First-to-Second Order Trigger</strong><br><small>Medium-Term (60–90 Days)</small></td>
+          <td>42.3% customer drop-off after first order (loss of high LTV repeat buyers).</td>
+          <td>Automated post-delivery 15% voucher + Free Delivery valid for 72 hrs. If 1st order was delayed &gt;15 min, auto-credit ₹50 to wallet.</td>
+          <td><span class="badge badge-success">+7.3% Repeat rate (to 65%)</span><br><small>+₹1.8M incremental quarterly GMV</small></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="speaker-notes">
+    <strong>Speaker Notes (1.5 min):</strong> Our recommendations target the exact failure nodes identified in the audit: First, surge incentives to mobilize riders during the dinner peak. Second, thermal bags and strict kitchen prep SLAs to eliminate cold food complaints and plug refund losses. Third, automated win-back credits for delayed first-time customers to lift repeat conversion.
+  </div>
+</div>
+
+<!-- Slide 8 -->
+<div class="slide">
+  <div class="slide-num">Slide 8 / 8</div>
+  <div class="slide-header">
+    <h1>Project Verification, Governance & Deliverables</h1>
+    <h2>Fully Audited, Verified, and Submission-Ready</h2>
+  </div>
+  <div class="slide-body">
+    <div class="grid-2">
+      <div>
+        <h3>Technical Verification Checklist</h3>
+        <ul>
+          <li>✅ <strong>Jupyter Notebook:</strong> 31 of 31 code cells executed with 15+ inline visual charts.</li>
+          <li>✅ <strong>SQL Analysis:</strong> All 20 MySQL queries executed; 20 result CSVs generated.</li>
+          <li>✅ <strong>Multi-Tool Parity:</strong> Zero-variance reconciliation between Python, SQL, and Excel.</li>
+          <li>✅ <strong>Power BI Package:</strong> Star-schema model, bidirectional relations, and 20 verified DAX measures.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Submission Artifacts</h3>
+        <ul>
+          <li>📂 <code>notebooks/01_Data_Cleaning_and_EDA.ipynb</code></li>
+          <li>📂 <code>sql/04_analysis_queries.sql</code> & <code>05_sql_results_summary.md</code></li>
+          <li>📂 <code>excel/QuickBite_Excel_Analysis.xlsx</code></li>
+          <li>📂 <code>powerbi/</code> (Data model, DAX, design, build guide)</li>
+          <li>📂 <code>audit/</code> (Full 9-report QA audit suite & traceability)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="speaker-notes">
+    <strong>Speaker Notes (1 min):</strong> To conclude, the QuickBite project has undergone complete verification and bug-fixing. All 31 notebook cells are executed, all 20 SQL queries produce valid outputs, and our data dictionary guarantees 100% cross-tool parity. Thank you for your time, and we look forward to your questions.
+  </div>
+</div>
+
+</body>
+</html>

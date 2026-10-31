@@ -1,0 +1,4 @@
+city,total_orders,gross_order_value_inr,total_discounts_inr,net_sales_inr,avg_order_value_inr,discount_rate_pct
+Hyderabad,48359,18114605.32,1441027.47,16673577.85,374.59,7.96
+Visakhapatnam,22228,8319189.71,659342.42,7659847.29,374.27,7.93
+Vijayawada,17235,6444983.78,509769.74,5935214.04,373.95,7.91
